@@ -8,6 +8,7 @@ Provides a simple blog, and exposes an API.
 
 ``` bash
 git clone git@github.com:alcalyn/ftvblog.git
+cd ftvblog
 
 make install
 make fixtures
