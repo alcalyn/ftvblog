@@ -10,7 +10,7 @@ Provides a simple blog, and exposes an API.
 git clone git@github.com:alcalyn/ftvblog.git
 cd ftvblog
 
-make
+make -i
 ```
 
 
