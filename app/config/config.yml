@@ -92,6 +92,8 @@ fos_rest:
                 priorities: ['html', '*/*']
     view:
         view_response_listener: true
+    body_converter:
+        enabled: true
 
 nelmio_api_doc:
     name: FTV Blog
