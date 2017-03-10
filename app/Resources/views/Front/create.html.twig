@@ -1,0 +1,9 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Créer un article</h1>
+
+    <a href="{{ path("app_front_index") }}" class="btn btn-primary">Retour à la liste</a>
+
+    {{ form(form) }}
+{% endblock %}

@@ -1,0 +1,68 @@
+model: AppBundle\Entity\Article
+fixtures:
+    article-1:
+        title: Il réussit à s’évader du labyrinthe imprimé au dos de son paquet de céréales
+        lead: |
+            Béziers – C’est un exploit dont peu de Français oseraient seulement rêver. Ce matin, Bafien*,
+            un jeune contrôleur de gestion de 29 ans, est parvenu à trouver la sortie du labyrinthe de
+            son paquet de céréales Coco Pops dont il était retenu captif depuis plusieurs heures. Reportage
+        body: |
+            Enveloppé dans une couverture thermique, les mains encore tremblantes, serrées autour d’un gobelet
+            de café fumant, Bafien retrouve peu à peu ses esprits : « Je n’y croyais plus », raconte-t-il aux
+            journalistes. « J’étais épuisé. Physiquement. Mentalement. J’étais prêt à abandonner.
+            C’est alors que j’ai aperçu la cascade chocolatée du Roi Coco », raconte-t-il encore sous le choc.
+
+            Une jungle aux milles saveurs et un trésor délicieux
+
+            La journée avait pourtant bien commencé. Ce matin, comme tous les matins, Bafien se sert en guise
+            de petit-déjeuner un bol de ses céréales préférées achetées à la supérette du coin. Mais, alors
+            qu’il parcourt la liste des ingrédients, un nouveau jeu attire son attention : « Ça parlait
+            d’aventures, d’une jungle aux milles saveurs et d’un trésor délicieux… Je n’ai pas su résister »,
+            se souvient-il amèrement.
+
+            Mais très vite l’aventure vire au cauchemar. Bafien réalise que la première entrée du labyrinthe
+            mène à un vulgaire cul-de-sac. « J’aurais pu en rester là, surtout que j’étais en retard pour
+            le boulot. Mais il y avait quatre autres entrées à essayer… », regrette-t-il. Au bout de la
+            troisième, les nerfs du jeune homme lâchent. « Il fallait que je sorte mais je ne savais même
+            plus où était l’entrée ! », ajoute-t-il avant d’exploser en sanglots, le paquet serré contre lui.
+
+            Quelle vie après le labyrinthe ?
+            « Bafien a eu de la chance, beaucoup de chance », commente le médecin urgentiste après avoir
+            longuement examiné les pupilles du rescapé. « Se risquer sans expérience dans un labyrinthe
+            céréalier c’est de la folie ! Il faut une condition physique impeccable et des nerfs solides.
+            Même les enfants les plus entraînés hésitent à deux fois avant de s’y aventurer ! »
+
+            Interrogé sur ce qu’il compte faire par la suite, le jeune homme dont les jours ne sont pas
+            en danger reste optimiste : « Profiter de chaque jour, passer du temps avec ma famille, mes
+            amis et peut-être, qui sait, trouver l’amour. Au final j’ai compris que le plus beau des
+            trésors était la liberté », ajoute-t-il avant de recevoir un mail de licenciement de son employeur.
+        createdAt: "2017-03-10 12:00:00"
+        createdBy: Bafien
+        slug: il-reussit-a-sevader-du-labyrinthe-imprime-au-dos-de-son-paquet-de-cereales
+    article-2:
+        title: Il met son fils à la porte après avoir trouvé le dernier Marc Levy sous son matelas
+        lead: |
+            Grenoble – Bernard, 59 ans, a décidé de virer son fils du foyer familial après avoir découvert
+            le dernier livre de Marc Levy sous le matelas de son lit.
+        body: |
+            « Mince, j’ai dû mal voir ce que c’était en l’achetant puis en le mettant sous mon matelas »,
+            avait dit son fils alors que le document était placé dans une enveloppe sur laquelle étaient
+            marqués les mots « privé » et « ne pas toucher », avant de continuer à essayer de fournir des
+            excuses peu convaincantes telles que « je le garde pour un ami » ou « quelqu’un a dû le mettre
+            là quand j’étais absent ». En attendant, son père ne lui a toujours pas dit pourquoi il était
+            en train de fouiller dans sa chambre. « j‘avais perdu un truc », a-t-il vaguement mentionné
+            avant de continuer à critiquer son fils alors que lui-même cache, sous le canapé familial,
+            des magazines de chasse et de pêche.
+
+            Selon le « fils indigne », ce qu’il fait dans son intimité ne regarde que lui et sa compagne.
+            Cette dernière lui ayant fait découvrir l’auteur avant qu’il en devienne fan jusqu’à posséder
+            un exemplaire contenant plusieurs marque-pages de différentes couleurs, placés à différents
+            chapitres comme s’il s’agissait d’un livre de cours.
+
+            Ce jeune homme qui a préféré rester anonyme avait pourtant pris ses précautions : « Je l’ai
+            commandé sur internet et j’avais pris l’option emballage secret pour pas que mon père se doute
+            de quelque chose, parce que le mois dernier je m’étais fait griller avec le livre “Ta deuxième
+            vie commence quand tu comprends que tu n’en as qu’une”. »
+        createdAt: "2017-03-07 14:42:42"
+        createdBy: "Le Gorafi"
+        slug: il-met-son-fils-a-la-porte-apres-avoir-trouve-le-dernier-marc-levy-sous-son-matelas
