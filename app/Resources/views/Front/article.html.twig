@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>
+        {{ article.title }}
+        <br />
+        <small>
+            par {{ article.createdBy }},
+            le {{ article.createdAt|date("d/m/Y") }}
+        </small>
+    </h1>
+
+    <p class="lead">{{ article.lead|nl2br }}</p>
+
+    <p>{{ article.body|nl2br }}</p>
+
+    <a href="{{ path("app_front_index") }}" class="btn btn-primary">Retour à la liste</a>
+{% endblock %}

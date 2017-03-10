@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Liste des articles</h1>
+
+    <a href="{{ path('app_front_create') }}" class="btn btn-success">Créer un article</a>
+
+    {% for article in articles %}
+        <div>
+            <h3>
+                {{ article.title }}
+                <small>
+                    par {{ article.createdBy }},
+                    le {{ article.createdAt|date("d/m/Y") }}
+                </small>
+            </h3>
+            <p class="lead">{{ article.lead|nl2br }}</p>
+            <a href="{{ path('app_front_article', {slug: article.slug}) }}" class="btn btn-link">Lire la suite &gt;</a>
+        </div>
+    {% endfor %}
+{% endblock %}
