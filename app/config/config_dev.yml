@@ -36,4 +36,4 @@ monolog:
 khepin_yaml_fixtures:
     directory: Resources/fixtures
     resources:
-        - ApiBundle
+        - AppBundle
