@@ -11,6 +11,9 @@ git clone git@github.com:alcalyn/ftvblog.git
 cd ftvblog
 
 make -i
+
+# In certain cases:
+chmod -R 777 var/*
 ```
 
 
